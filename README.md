@@ -1,5 +1,5 @@
 # functi-only
-Functi is only Function Porgramming Language
+Functi is Function-only Porgramming Language
 This is joke, but it's not joke.
 
 ```javascript
