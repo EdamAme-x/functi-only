@@ -2,6 +2,7 @@
 Functi is Function-only Porgramming Language
 This is joke, but it's not joke.
 
+## procedure
 ```javascript
 (
   imports(
@@ -21,6 +22,31 @@ This is joke, but it's not joke.
       ),
       print(b, string(is 5)),
       print(b, string(is not 5)
+    )
+  )
+)
+```
+
+## module
+```javascript
+(
+  imports(
+    std,
+    math
+  ),
+  std(
+    defineFunction(isDiv3,
+      defineArgs(num),
+      math(
+        if(
+          equal(mod(num, int(3)), 0),
+          return(true()),
+          return(false())
+        )
+      )
+    ),
+    exports(
+      isDiv3
     )
   )
 )
