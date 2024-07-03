@@ -10,7 +10,7 @@ This is joke, but it's not joke.
   ),
   std(
     define(a, int(5)),
-    define(b, int(0)),
+    define(b, nil()),
     math(
       assign(b, randomInt(int(0), int(10)))
     ),
