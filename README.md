@@ -39,7 +39,7 @@ This is joke, but it's not joke.
       defineArgs(num),
       math(
         if(
-          equal(mod(num, int(3)), 0),
+          equal(mod(num, int(3)), int(0)),
           return(true()),
           return(false())
         )
