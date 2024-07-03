@@ -1,6 +1,9 @@
 # functi-only
-Functi is Function-only Porgramming Language
-This is joke, but it's not joke.
+Functi is Function-only Porgramming Language  
+This is joke, but it's not joke.  
+
+By enclosing a module by module name, the module can be used in a process within its arguments.  
+Scope is valid only within the argument.
 
 ## procedure
 ```javascript
